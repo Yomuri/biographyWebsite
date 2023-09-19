@@ -2,12 +2,12 @@ body {
     
 }
 img {
-
-}
-#queens {
-    height: 50;
     
 }
-float-left {
-    float: left;
+#queens {
+    height: 300px;
+    
+}
+.float-left {
+    float: right;
 }
