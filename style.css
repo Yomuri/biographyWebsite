@@ -1,13 +1,31 @@
-body {
-    
+:root {
+    font-family: Arial, Helvetica, sans-serif;
 }
-img {
-    
+body {
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    /* border: 1px solid black;
+    padding: 10px;
+    margin: 25px; */
+}
+nav {
+    /* border: 5px solid black;
+    padding: 10px;
+    margin: 25px; */
 }
 #queens {
-    height: 300px;
-    
+    max-height: 250px;
 }
-.float-left {
+.float-right {
     float: right;
+}
+.contains-list {
+    list-style: none;
 }
